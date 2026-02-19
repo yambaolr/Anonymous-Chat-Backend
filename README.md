@@ -1,6 +1,6 @@
 ## Anonymous Chat Backend
 
-A backend-only RESTful API for an anonymous chat app with JWT authentication. Users can join chat rooms using a nickname and a password, send messages in real-time, and admins can create or delete rooms.
+A backend-only RESTful API for an anonymous chat app with JWT authentication. Users provide a nickname and an access password to log in anonymously. Normal users can join chat rooms and send messages, while users with the admin password can also create and delete chat rooms. All actions are secured via JWT tokens.
 
 ## Tech Stack
 
